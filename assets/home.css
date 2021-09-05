@@ -1,0 +1,742 @@
+*{
+          margin: 0;
+          padding: 0;
+          /* background-color: whitesmoke; */
+}
+body{
+          overflow-x: hidden;
+}
+/*  First Section */
+.Bigest-section{
+          width: 100vw;
+}
+/* Top Red Box */
+.top-red-box{
+          width: 100%;
+          height: 4vh;
+          background-color: rgb(0, 0, 0);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+.top-red-box ul{
+          display: flex;
+          list-style-type: none;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+          /* background-color: rosybrown; */
+}
+.top-red-box ul li{
+          margin-left: 5%;
+}
+.top-red-box ul li a{
+          text-decoration: none;
+          color: white;
+}
+.top-red-box ul li a:hover{
+          color: yellow;
+}
+
+/* ------------------------------  Baner Section */
+.Baner-section-background{
+          width: 100%;
+          height: 95vh;
+          background-image: url("../images/collage-img\ .jpg");
+          box-shadow: 10px 4px 10px 0 rgba(15, 36, 36, 0.842);   
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+}
+.Baner-div-Outer{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          /* background-color: rgba(0, 0, 0, 0.13); */
+}
+.logo-location-div{
+          width: 80%;
+          height: 15%;
+          display: flex;
+          /* background-color: violet; */
+}
+.logo-location-div div{
+          width: 50%;
+          height: 100%;
+          /* border: 1px solid black; */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+.logo-div{
+          /* padding: 30px; */
+          background-image: url('../images/digvijaycollage-logo.png');   
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;      
+}
+/* ----------------------------NavBar Tabs  */
+.nav-bar-div{
+          width: 90%;
+          height: 7%;
+          display: flex;
+          /* background-color: blue; */
+}
+.nav-bar-div ul{
+          width: 100%;
+          display: flex; 
+          list-style-type: none;      
+          justify-content: center;
+          align-items: center;
+}
+.nav-bar-div ul li{
+          margin-left: 2%;
+}
+.nav-bar-div ul li div{
+          position: absolute;
+}
+.dropdown-div{
+          /* border: 1px solid black; */
+          visibility: hidden;
+}
+.nav-bar-div ul li:hover .dropdown-div{
+          visibility: visible;
+}
+.nav-bar-div ul li div ul{
+          display: flex;
+          flex-direction: column;
+          background-color: white  ;
+}
+.nav-bar-div ul li div ul li{
+          width: 100%;
+          padding: 5px;
+          
+}
+.nav-bar-div ul li div ul li a {
+          color: black;
+}
+.nav-bar-div ul li a{
+          text-decoration: none;          
+          font-family: cursive;
+          color: white;
+          font-weight: bold;
+}
+.nav-bar-div ul li a:hover{
+          color: whitesmoke;
+}
+.dropdown-div ul li a:hover {
+     width: 100%;
+     background-color: black;
+}
+
+/* -------------------------Cards Div */
+.cards-section{
+          top: 80vh;
+          position: absolute;
+          width: 100vw;
+          height: 40vh;
+          /* background-color: rgba(255, 0, 0, 0.247); */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+.cards-section-div{
+          width: 80%;
+          height: 100%;
+          /* background-color: red; */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+.clr-card-red{
+          width: 23%;
+          height: 80%;
+          background-color: black;
+          color: white;
+          border-radius: 5px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+
+.clr-card-pink{
+          width: 23%;
+          height: 80%;
+          background-color: whitesmoke;
+          
+          border-radius: 5px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+
+/* ------------------------------------- Bulleten News */
+.Bulleten-Section{
+     margin-top: 22vh;
+     width: 100vw;
+     height: 8vh;
+     /* background-color: blueviolet; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.Bulleten-div{
+     width: 80%;
+     height: 70%;
+     /* background-color: brown; */
+     display: flex;
+}
+.Bulleten-div-one{
+     width: 15%;
+     height: 100%;
+     background-color: black;
+     color: white;
+     border-radius: 40px 0px 0px 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ 
+}
+.Bulleten-div-two{
+     width: 85%;
+     height: 100%;
+     background-color: whitesmoke;
+     border-radius: 0px 40px 40px 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+/* ----------------------------------------- ABOUT-Section */
+.ABOUT-Section{
+     width: 100vw;
+     height: 40vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 5vh;
+}
+.ABOUT-div{
+     width: 80%;
+     height: 100%;
+     /* background-color: deeppink; */
+     display: flex;
+}
+.About-div-first-div{
+     width: 55%;
+     height: 100%;
+     background-color: rgba(230, 233, 245, 0.89);
+     margin-right: 2vw;
+     padding: 1%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.About-div-first-div-details{
+     width: 65%;
+     height: 100%;
+     /* background-color: palegreen; */
+}
+.About-div-first-div-img{
+     width: 35%;
+     height: 70%;
+     background-color: rgb(251, 253, 255);
+     background-image: url("../images/sec.JPG");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.About-div-first-div h1{
+     font-size: 1.8rem;
+     color: rgb(0, 110, 255);
+     margin-left: 5%;
+     border-bottom: 2px solid rgb(0, 110, 255);
+     display: inline-block;
+}
+.About-div-first-div p{
+     margin: 5%;
+     margin-bottom: 1%;
+     height: 55%;
+     text-align: justify;
+     /* background-color: orchid; */
+}
+.ABOUT-GDCR{
+     margin-left: 5%;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     font-size: 0.9rem;
+     font-weight: bold;
+     outline: none;
+     background-color: black;
+     color: white;
+}
+.ABOUT-GDCR:hover{
+     cursor: pointer;
+     color:white;
+     background-color: rgb(0, 110, 255);
+}
+
+/* ----------------------------------------ABOUT Director DIV */
+.Directors-div{
+     width: 45%;
+     height: 100%;
+     background-color: rgb(97, 95, 95);
+     color: white;
+     margin-left: 2vw;
+     padding: 1%;
+}
+
+.Directors-div h1{
+     font-size: 1.6rem;
+     border-bottom: 2px solid rgb(0, 110, 255);
+     display: inline-block;
+     margin-left: 2%;
+     color: rgb(0, 110, 255);
+}
+.Directors-div-insideDiv{
+     width: 100%;
+     height: 85%;
+     /* background-color: turquoise; */
+     display: flex;
+}
+.Directors-img{
+     width: 40%;
+     height: 100%;
+     background-color: white;
+     background-image: url("../images/Dr.B.N.-Meshram.jpeg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+.Directors-details{
+     width: 60%;
+     height: 100%;
+     /* background-color: tomato; */
+     display: flex;
+     flex-direction: column;
+}
+.Directors-details h5{
+     margin: 2%;
+}
+.Directors-details p{
+     width: 90%;
+     height: 60%; 
+     /* background-color: turquoise; */
+     font-size: 0.9rem;
+     text-align: justify;
+     padding: 10px;
+}
+.Directors-details button{
+     width: 40%;
+     padding: 10px 10px;
+     border: none;
+     border-radius: 5px;
+     margin: 3%;
+     outline: none;
+}
+.Directors-details button:hover{
+     cursor: pointer;
+     color:white;
+     background-color: rgb(0, 110, 255);
+}
+
+/* ----------------------------------------- News-Section */
+.News-Section{
+          width: 100vw;
+          height: 100vh;
+          /* background-color: rgb(131, 226, 43); */
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+}
+.news-section-div{
+          margin-top: 3%;
+          width: 90%;
+          height: 33vh;
+          /* background-color: burlywood; */
+          border-radius: 10px;
+          display: flex;
+          /* padding: 10px; */
+}
+.first-card{
+          margin-top: 0%;
+}
+
+.card{
+          width: 50%;
+          height: 100%;
+          /* background-color: cadetblue; */
+          display: flex;
+          border-radius: 5px;
+          /* background-color: rgb(248, 245, 244); */
+          border: none;
+          margin-right: 10px;
+          background-color: rgb(232, 238, 255);
+          padding: 5px;
+          border-bottom: 2px solid rgb(0, 110, 255);
+}
+.card img{
+          width: 40%;
+          background-color: chartreuse;
+          height: 90%;
+          margin: auto;
+          border-radius: 0px 5px 5px 0px;
+          border: none;
+}
+.news-details{
+          width: 60%;
+          height: 100%;
+          border-radius: 5px 0px 0px 5px;
+}
+.news-details h2{
+          margin-left: 20px;
+          margin-top: 10px;
+}
+.news-details hr{
+          width: 90%;
+          margin: auto;
+          background-color: black;
+          border: 0.5px solid black;
+}
+.news-details p{
+         padding: 5%;
+         text-align: justify; 
+         color: rgb(88, 87, 87);
+}
+.news-details button{
+          padding: 7px 13px;
+          margin-left: 5%;
+          background-color: white;
+          border: 1px solid gray;
+          border-radius: 5px;
+          color: gray;
+          outline: none;
+          margin-top: 0;
+}
+.news-details button:hover{
+          cursor: pointer;
+          background-color: black;
+          color: white;
+}
+
+/* ------------------------------------------ ACADEMIC-Section */
+.ACADEMIC-Section{
+          width: 100vw;
+          height: 50vh;
+          background-color: rgb(237, 238, 241);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: rgb(0, 110, 255) ;
+          font-size: 1.5rem;
+          box-shadow: 10px 4px 10px 0 rgba(15, 36, 36, 0.842);
+
+}
+.ACADEMIC-UNITS-inside-div{
+          width: 90%;
+          height: 60%;
+          /* background-color: tomato; */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          /* color:  rgb(0, 110, 255); */
+}
+.ACADEMIC-UNITS-inside-div div{
+          width: 18%;
+          height: 70%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color:black;
+     background-color:whitesmoke;
+          margin: 15px;
+          /* border-radius: 5px; */
+          border: 1.2px solid black;
+}
+.ACADEMIC-UNITS-inside-div div:hover{
+     cursor: pointer;
+    
+     background-color:  rgb(0, 110, 255);
+     color: white;
+}
+
+
+/* ------------------------------------------ Student Info Section */
+.Student-info-section{
+          width: 100vw;
+          height: 50vh;
+          /* background-color: violet; */
+}
+.Student-info-div{
+          width: 100%;
+          height: 100%;
+          /* background-color: turquoise; */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          font-size: 1.5rem;
+}
+.UG_PG_MAIN_DIV{
+     width: 90%;
+     height: 50%;
+     /* background-color: blueviolet;      */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.UG-PG-div{
+          width: 40%;
+          margin: 10px;
+          height: 80%;
+          background-color:rgb(0, 110, 255);
+          
+          border-radius: 5px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+}
+.UG-PG-div h2{
+          color: white;
+}
+.UG-PG-div button{
+          padding: 10px 20px;      
+          margin: 10px; 
+          border-radius: 3px;   
+          background-color: white;
+          border: 1px solid grey;
+          color: rgb(143, 141, 141);
+          outline: none;
+}
+.UG-PG-div button:hover{
+          cursor: pointer;
+          background-color: black;
+          color: white;
+}
+
+/* -------------------------------------------- Total-Student-Section */
+.Total-Student-Section{
+          width: 100vw;
+          height: 40vh;
+          /* background-color: yellowgreen; */
+}
+.Total-Student-Div{
+          width: 100%;
+          height: 100%;
+          /* background-color: darkcyan; */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-image: url("../images/people-690810_1920.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          color: white;
+          /* z-index: 0; */
+         
+          
+
+}
+.Total-Student-Div div{
+          width: 30%;
+          height: 70%;
+          /* background-color: crimson; */
+          margin: 2px;
+          border-radius: 5px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+}
+.Total-Student-Div div h1{
+          font-size: 3rem;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Total-Student-Div div P{
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-weight: bold;
+}
+
+/*  ---------------------------------FAQ-Section*/
+.FAQ-Section{
+          width: 100vw;
+          height: 70vh;
+}
+.FAQ-Div{
+          width: 100%;
+          height: 100%;
+          /* background-color: rgb(31, 184, 11); */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+.FAQ-div1{
+          width: 30%;
+          height: 100%;
+          /* background-color: darkgreen; */
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+}
+
+.FAQ-div2{
+          width: 70%;
+          height: 100%;
+          background-color: rgb(85, 100, 0);
+          background-image: url("../images/human-2944064_1280\ \(1\).jpeg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+     }
+
+.FAQ-Question-div{
+          margin: 20px;
+}
+
+/* ------------------------------ Just-Image-Background  */
+.just-img-background{
+          width: 100vw;
+          height: 60vh;
+          background-image: url("../images/down\ .JPG");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+}
+
+/* ----------------------------Footer */
+footer{
+          width: 100vw;
+          height: 60vh;
+          /* background-color: rgb(15, 5, 15); */
+          display: flex;
+          background-color:  rgb(33, 35, 49) !important;    
+          justify-content: center;
+          align-items: center;
+          color: white;
+}
+.footer-logo{
+          width: 30%;
+          height: 70%;
+          border-right: 2px solid rgb(184, 182, 182);
+          margin: 2%;
+          border-style: dotted;
+          border-top: none;
+          border-left: none;
+          background-color: rgb(33, 35, 49) !important;
+          /* border-right: none; */
+          border-bottom: none;     
+          /* background-color: yellow; */
+          background-image: url("../images/collage-img.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+}
+
+.footer-second-div{
+          width: 70%;
+          height: 100%;
+          background-color: rgb(33, 35, 49) !important;
+          display: flex;
+}
+.Quick-Links1-div{
+          width: 40%;
+          height: 100%;
+          /* background-color: cadetblue; */
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          padding-left: 10px;
+}
+.Quick-Links1-div h4{
+     border-bottom: 3px solid orangered ;
+     color: white;
+     margin: 15px;
+}
+.Quick-Links2-div h4{
+     border-bottom: 3px solid orangered ;
+     color: white;
+     margin: 15px;
+}
+.Quick-Links2-div{
+          width: 40%;
+          height: 100%;
+          /* background-color: chartreuse; */
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          padding-left: 10px;
+}
+.Quick-Links1-div ul{
+          list-style-type: none;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+}
+.Quick-Links1-div ul li{
+          margin-left: 5px;
+          margin: 8px;
+          width: 70%;
+          font-size: 1.2rem;
+          /* background-color: chocolate; */
+          border: 1px solid rgb(73, 73, 73);
+          color: rgb(241, 238, 238);
+          border-style: dotted;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+}
+.Quick-Links2-div ul{
+     list-style-type: none;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+}
+.Quick-Links2-div ul li{
+     margin-left: 5px;
+     margin: 8px;
+     width: 70%;
+     font-size: 1.2rem;
+     /* background-color: chocolate; */
+     border: 1px solid rgb(73, 73, 73);
+     border-style: dotted;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+}
+.Quick-Links1-div ul li a , .Quick-Links2-div ul li a{
+     text-decoration: none;
+     color: rgba(255, 255, 255, 0.842);
+     padding: 5px;
+}
+.Quick-Links2-div ul li a:hover ,.Quick-Links1-div ul li a:hover {
+     color: white;
+}
+
+
+
+
+/* End Div */
+.end-div{
+     width: 100vw;
+     height: 10vh;
+     background-color: black;
+}
